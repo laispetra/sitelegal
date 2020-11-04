@@ -1,13 +1,25 @@
 import React from 'react'
-import { AppContainer } from './components/AppContainer'
+import styled from "styled-components"
+
+const AppContainer = styled.div`
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10%;
+	align-items: center;
+`
 
 function App() {
 	return (
-        <div>
+        <AppContainer>
 			<input placeholder={"Email"}/>
 			<input placeholder={"Senha"}/>
-			<button>Login</button>
+
+			<button>Logn</button>
 		</div>
+
+		</AppContainer>
+
 	)
 }
 
