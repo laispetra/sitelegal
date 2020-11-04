@@ -3,7 +3,11 @@ import { AppContainer } from './components/AppContainer'
 
 function App() {
 	return (
-        <AppContainer />
+        <div>
+			<input placeholder={"Email"}/>
+			<input placeholder={"Senha"}/>
+			<button>Logn</button>
+		</div>
 	)
 }
 
