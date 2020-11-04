@@ -15,7 +15,7 @@ function App() {
 			<input placeholder={"Email"}/>
 			<input placeholder={"Senha"}/>
 
-			<button>Login</button>
+			<button>Clique para login!</button>
 		</AppContainer>
 
 	)
