@@ -14,7 +14,7 @@ function App() {
         <AppContainer>
 			<input placeholder={"Email"}/>
 			<input placeholder={"Senha"}/>
-			<button>Logn</button>
+			<button>Login</button>
 		</AppContainer>
 
 	)
