@@ -14,8 +14,12 @@ function App() {
         <AppContainer>
 			<input placeholder={"Email"}/>
 			<input placeholder={"Senha"}/>
-			<button>Clique aqui para fazer login</button>
+
+			<button>Logn</button>
+		</div>
+
 		</AppContainer>
+
 	)
 }
 
