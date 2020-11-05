@@ -7,8 +7,6 @@ const AppContainer = styled.div`
 	flex-direction: column;
 	margin-top: 10%;
 	align-items: center;
-	color: red;
-	border: 1px;
 `
 
 function App() {
@@ -16,11 +14,9 @@ function App() {
         <AppContainer>
 			<input placeholder={"Email"}/>
 			<input placeholder={"Senha"}/>
-
 			<button>
 				Clique para fazer o login
 			</button>
-
 		</AppContainer>
 
 	)
